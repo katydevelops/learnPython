@@ -1,0 +1,35 @@
+Python List
+
+- ordered, mutable collection of items in Python - can contain elements of different data types, including other lists 
+
+    fruitList = ["apple, "banana", "cherry"]
+    mixedList = [1, "two", 3.0, False, 5]
+
+    Access itmes in the list through the index
+    print(fruitList[0])     # Output: apple
+    print(fruitList[-1])    # Output: cherry
+
+
+Slicing lists
+- Slicing allows you to access a subset of the list
+
+    list[start:stop:step]
+    ** the stop index is exclusive and therefore not returned in the output
+
+    numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    print(numbers[2:5])     # Output: [2, 3,  4]
+    print(numbers[:4])      # Output: [0, 1, 2, 3]
+    print(numbers[5:])      # Output: [5, 6, 7, 8, 9]
+
+    print(number[::2])
+    Start and stop are left blank so the step is initialized to 2 which slices even number
+
+
+Modifying lists
+
+    - append() - adds a single element to the end of a list
+    - extend() - adds multiple elements from another iterable
+    - insert () - inserts an element at a specified index position
+
+    fruits.append("dragon fruit") # Output: ["apple", "banana", "cherry", "dragon fruit"]
