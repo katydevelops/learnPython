@@ -2,12 +2,12 @@ Python List
 
 - ordered, mutable collection of items in Python - can contain elements of different data types, including other lists 
 
-    fruitList = ["apple, "banana", "cherry"]
-    mixedList = [1, "two", 3.0, False, 5]
+    fruit_list = ["apple, "banana", "cherry"]
+    mixed_list = [1, "two", 3.0, False, 5]
 
     Access itmes in the list through the index
-    print(fruitList[0])     # Output: apple
-    print(fruitList[-1])    # Output: cherry
+    print(fruit_list[0])     # Output: apple
+    print(fruit_list[-1])    # Output: cherry
 
 
 Slicing lists
@@ -32,4 +32,20 @@ Modifying lists
     - extend() - adds multiple elements from another iterable
     - insert () - inserts an element at a specified index position
 
-    fruits.append("dragon fruit") # Output: ["apple", "banana", "cherry", "dragon fruit"]
+    fruit_list.append("dragon fruit") # Output: ["apple", "banana", "cherry", "dragon fruit"]
+
+
+Removing elements
+    - remove() - removes the first occurrence of a specified value
+    - pop() - removes and returns the element at a given index
+    - clear() - removes all elements from the list
+
+    fruits.remove("apple") # Output: ["banana", "cherry", "dragon fruit"]
+
+    poppedItem = fruit_list.pop(0)
+    print(poppedItem))  # Output: banana
+    print(fruit_list) = ["cherry', dragon fruit"]
+
+
+List Comprehension
+    - a concise way to create a new list from an existing iterable (list, tuple, range, etc) by applying a transformation or filter to each element.
