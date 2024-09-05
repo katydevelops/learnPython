@@ -49,3 +49,11 @@ Removing elements
 
 List Comprehension
     - a concise way to create a new list from an existing iterable (list, tuple, range, etc) by applying a transformation or filter to each element.
+
+    expression: This is the transformation or operation you want to apply to each element. It can be a simple variable, a function call, or even a complex expression.
+
+    item: This is the variable that represents each element in the iterable during the iteration.
+
+    iterable: This is the source list, tuple, range, or other iterable you want to process.
+    
+    if condition: This is an optional filter clause. If present, only elements that satisfy the condition will be included in the resulting list.
